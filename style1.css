@@ -1,0 +1,1573 @@
+.top {
+        color: #010514;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        font-family: 'Roboto Condensed', sans-serif;
+}
+.top i {
+        position: absolute;
+        left: 93%;
+        top: 37%;
+        color: gray;
+        opacity: 0.8;
+}
+.nav {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 38%;
+        left: 19%;
+        width: 70%;
+
+}
+.nav a {
+        margin-left: 101px;
+        cursor: pointer;
+}
+
+.nav .home::before {
+        content: ' ';
+        position:absolute;
+        top:19px;
+        left: 100px;
+
+        display: inline-block;
+        width: 40px;
+        height:2px;
+        background-color: #010514;
+
+        transition: width 0.3s ease-in;
+        width: 0;
+}
+.nav .home:hover::before {
+        width: 40px;
+        cursor: pointer;
+}
+.nav .strategy::before {
+        content: ' ';
+        position: absolute;
+        top:19px;
+        left:245px;
+        display: inline-block;
+        width:49px;
+        height: 2px;
+        background-color: #010514;
+
+        transition: width 0.3s ease-in;
+        width: 0;
+}
+.nav .strategy:hover::before {
+        width: 49px;
+}
+
+.nav .about::before {
+        content: ' ';
+        position: absolute;
+        top:19px;
+        left:1px;
+        display: inline-block;
+        width:38px;
+        height: 2px;
+        background-color: #010514;
+
+        transition: width 0.3s ease-in;
+        width: 0;
+}
+.nav .about:hover::before {
+        width: 39px;
+}
+.nav .about {
+        position:relative;
+        left: 5%;
+}
+
+.nav .sign-up::before {
+        content: ' ';
+        position: absolute;
+        top:19px;
+        left:2px;
+        display: inline-block;
+        height: 2px;
+        background-color: #010514;
+        transition: width 0.3s ease-in;
+        width: 0;
+}
+
+
+
+.nav .sign-up:hover::before {
+        width: 48px;
+}
+
+.nav .clients::before {
+        content: ' ';
+        position: absolute;
+        top: 19px;
+        left: 1px;
+        display: inline-block;
+        width: 46px;
+        height: 2px;
+        background-color: #010514;
+        transition: width 0.3s ease-in;
+        width: 0;
+}
+
+.nav .clients:hover:before {
+        width: 44px;
+
+}
+
+.nav .clients {
+        position: relative;
+        left: 8%;
+}
+.sign-up {
+        position: absolute;
+        right: 5%;
+}
+
+.logo {
+        position: relative;
+        left: 9.5%;
+        top: 21%;
+        font-weight: bold;
+        font-size: 25px;
+        padding:0;
+        margin: 0;
+        float: left;
+        color: #010514;
+}
+.logo .part2 {
+        color: #fa1483;
+}
+
+.main {
+        position: relative;
+        top: 5%;
+        height: 65%;
+        padding: 20px;
+}
+
+.main .left-txt-part {
+        float: left;
+        height: 95%;
+        padding: 20px;
+        width: 50%;
+        box-sizing: border-box;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: .8em;
+
+}
+
+.main .left-txt-part .identic {
+        position: absolute;
+        top: 5%;
+        left: 13.2%;
+        margin-top: 55px;
+        padding: 10px;
+        color: #010514;
+        box-sizing: inherit;
+        font-size: 100px;
+        font-weight: bold;
+        letter-spacing: 10px;
+}
+
+.main .left-txt-part .horizontal-ln {
+        position: absolute;
+        top: 30%;
+        left: 14.6%;
+        height: 0;
+        width: 8%;
+        border-bottom: solid 5px #010514;
+        margin-top: 55px;
+        padding: 10px;
+        box-sizing: inherit;
+}
+
+.main .left-txt-part .bottom-txt {
+        position: absolute;
+        top: 78%;
+        left: 13.8%;
+        opacity: 0.5;
+        padding: 10px;
+        box-sizing: inherit;
+}
+
+.main .right-image-part {
+        position: relative;
+        left: 50.5%;
+        width: 50%;
+        margin-left: 0;
+        height: 95%;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 42;
+}
+
+.main .right-image-part .new {
+        position: absolute;
+        top: 5%;
+        padding: 10px;
+        box-sizing: inherit;
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+        opacity: 0.4;
+}
+
+.main .right-image-part h3 {
+        position: absolute;
+        top: 6%;
+        padding: 10px;
+        box-sizing: inherit;
+        font-weight: bold;
+        font-size: 23px;
+        color: white;
+}
+
+.main .right-image-part .main-txt-right {
+        position: absolute;
+        top: 25%;
+        width: 32%;
+        padding: 10px;
+        font-size:.75em;
+        color: white;
+        opacity: 0.8;
+        box-sizing: inherit;
+}
+
+.main .right-image-part .opposing-arrows {
+        position: relative;
+        top: 55%;
+        right:2%;
+        padding: 20px;
+        height: 30%;
+        box-sizing: inherit;
+}
+
+.main .right-image-part .opposing-arrows .left .left-arrow {
+        position: absolute;
+        top: 11%;
+        right: 80%;
+        padding: 3px;
+        border: solid 2px green;
+        float: left;
+        box-sizing: inherit;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(135deg);
+}
+.main .right-image-part .opposing-arrows .left .line {
+        position: absolute;
+        left: 6.9%;
+        bottom:71%;
+        border-bottom: solid 2px white;
+        width: 15px;
+        height: 30px;
+        display: inline-block;
+        box-sizing: inherit;
+
+}
+
+.main .right-image-part .opposing-arrows .left {
+        position: relative;
+        bottom: 30%;
+        padding: 0;
+        margin: 0;
+        width: 10%;
+        height: 50%;
+        box-sizing: inherit;
+        opacity: 0.8;
+}
+
+.main .right-image-part .opposing-arrows .right .right-arrow {
+        position: absolute;
+        top: 11%;
+        right: 48%;
+        padding: 3px;
+        border: solid 2px green;
+        float: left;
+        box-sizing: inherit;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+}
+
+.main .right-image-part .opposing-arrows .right .line-2 {
+        position: absolute;
+        left: 8.5%;
+        bottom:67%;
+        border-bottom: solid 3px white;
+        width: 20px;
+        height: 30px;
+        display: inline-block;
+        box-sizing: inherit;
+}
+
+.main .right-image-part .opposing-arrows .right {
+        position: relative;
+        bottom: 80%;
+        left: 10%;
+        box-sizing: inherit;
+        width: 10%;
+        height: 50%;
+}
+
+.main .button-thing {
+        position: relative;
+        bottom: 15.5%;
+        left: 44.2%;
+        padding: 10px;
+        width: 20%;
+        height: 50px;
+        z-index: 12;
+}
+
+.main .button-thing .v-slider {
+        position: relative;
+        width: 23%;
+        height: 98%;
+        background-color: #010514;
+        left: 10%;
+        bottom: 15%;
+}
+.main .button-thing .v-slider .v-s-1 {
+        position: absolute;
+        padding: 3px;
+        border-right: solid 2px white;
+        height: 35%;
+        width: 40%;
+        right: 80%;
+        top: 25%;
+        right: 43px;
+}
+
+.main .button-thing .v-slider .c-1 {
+        position: absolute;
+        border: 3px solid white;
+        border-radius: 100%;
+        left: 17%;
+        top: 41%;
+}
+
+.main .button-thing .v-slider .v-s-2 {
+        position: absolute;
+        padding: 3px;
+        border-right: solid 2px white;
+        height: 35%;
+        width: 20%;
+        left: 7%;
+        top: 25%;
+}
+
+.main .button-thing .v-slider .c-2 {
+        position: absolute;
+        border: 3px solid white;
+        border-radius: 100%;
+        left: 34.5%;
+        top: 35%;
+
+}
+
+.main .button-thing .v-slider .v-s-3 {
+        position: absolute;
+        padding: 3px;
+        border-right: solid 2px white;
+        height: 35%;
+        width: 20%;
+        left: 23%;
+        top: 25%;
+}
+
+.main .button-thing .v-slider .c-3 {
+        position: absolute;
+        border: 3px solid white;
+        border-radius: 100%;
+        left: 51%;
+        top: 41%;
+
+}
+
+
+
+.main .button-thing button {
+        position: absolute;
+        left: 28.8%;
+        bottom: 25%;
+        padding: 8.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #010514;
+}
+.horizontal-line1{
+        position:absolute;
+        right: 0.5%;
+        border-top: 1px solid gray;
+        opacity: 0.2;
+        top: 2.6%;
+        width: 100%;
+
+}
+.horizontal-line2 {
+        position: absolute;
+        right: 0.5%;
+        border-top: 1px solid gray;
+        opacity:0.2;
+        top: 102.8%;
+        width: 100%;
+}
+
+.brand-names {
+        position: relative;
+        bottom:75%;
+        height: 23%;
+        width: 100%;
+}
+
+.brand-names .Baldwin {
+        top: 15%;
+        position: absolute;
+        left: 5%;
+        font-family: 'DM Serif Display', serif;
+        font-size: 32px;
+        opacity: 0.4;
+
+}
+
+.brand-names .Hogan { 
+        position: absolute;
+        left: 25%;
+        top: 8%;
+        font-family: 'Pacifico', cursive;
+        font-size: 32px;
+        opacity: 0.4;
+}
+
+.brand-names .SULZER {
+        position: absolute;
+        top: 18%;
+        left: 45%;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 32px;
+        opacity: 0.4;
+}
+
+.brand-names .flickr {
+        position: absolute;
+        left: 75%;
+        top: 18%;
+        font-family: 'Teko', sans-serif;
+        font-size: 38px;
+        opacity: 0.4;
+
+}
+
+.bg-right{
+        bottom: 64.5%;
+        left: 50.5%;
+        height: 84.5%;
+        width: 630px;
+        margin-right: 0;
+        padding-right: 0;
+        position: relative;
+        z-index: 11;
+}
+
+.clip-1 {
+        position: absolute;
+        height: inherit;
+        width: inherit;
+        background-color: #1863db;
+        clip-path: polygon(0 0, 71% 0, 44% 39%, 25% 59%, 0 77%);
+
+}
+
+.clip-2 {
+        position: absolute;
+        height: inherit;
+        width: inherit;
+        background-color: #ed7979;
+        clip-path: polygon(31% 49%, 53% 24%, 66% 0, 96% 0, 84% 36%, 65% 69%, 33% 100%, 0 100%, 0 72%, 15% 63%);
+
+}
+
+.clip-3 {
+        position: absolute;
+        height: inherit;
+        width: inherit;
+        background-color: #de0492;
+        clip-path: polygon(38.5% 40.5%, 43% 54%, 51% 64%, 65% 74%, 55% 87%, 33% 100%, 0 100%, 0 72%, 14% 63%, 24% 55.2%);
+
+}
+
+.clip-4 {
+        position: absolute;
+        height: inherit;
+        width: inherit;
+        background-color: #13b9d6;
+        clip-path: polygon(40.5% 38%, 71% 54%, 71% 54%, 71% 55%, 85% 0, 66% 0, 60% 11%, 55% 19%, 51% 24%, 46% 31%);
+}
+
+.clip-5 {
+        position: absolute;
+        height: inherit;
+        width: inherit;
+        background-color: #010514;
+        clip-path: polygon(63% 67%, 34% 100%, 85% 100%);
+
+}
+
+.clip-6 {
+        position: absolute;
+        height: inherit;
+        width: inherit;
+        background-color: #bdb706;
+        clip-path: polygon(80% 15%, 83% 0, 100% 0, 100% 59%, 100% 100%, 85% 100%, 60.2% 70%, 64% 62%, 71% 47%, 76% 32%);
+}
+
+
+.nav .home {
+
+}
+
+.vertical-line {
+        width: 1px;
+        border: solid 2px black;
+        height: 1000px;
+        position: absolute;
+        left: 57.1%;
+        top:80%;
+        background-color: gray;
+        opacity: 0.3;
+
+}
+
+.pg2 .four-squares-wrapper {
+        width: 35.5%;
+        height: 60%;
+        position: absolute;
+        top: 127%;
+        left: 15%;
+        font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.pg2 .four-squares-wrapper .square-1 {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+}
+
+.pg2 .four-squares-wrapper .square-1 .hr-line {
+        border-top: solid 6px #010514;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+}
+
+.pg2 .four-squares-wrapper .square-past {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 50%;
+        background-color: #13b9d6;
+        overflow: hidden;
+}
+
+.pg2 .four-squares-wrapper .square-past .past {
+        position: relative;
+        left: 10%;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+
+}
+
+.pg2 .four-squares-wrapper .square-past .zero-one {
+        position: relative;
+        color: white;
+        font-weight: 900;
+        font-size: 9em;
+        bottom: 55%;
+        left: 46%;
+        opacity: 0.5;
+}
+
+.pg2 .four-squares-wrapper .square-feature {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left:50%;
+        top:50%;
+        background-color: #de0492;
+        overflow: hidden;
+}
+
+
+.pg2 .four-squares-wrapper .square-feature .feature {
+        position: relative;
+        left: 10%;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+}
+
+.pg2 .four-squares-wrapper .square-feature .zero-three {
+        position: relative;
+        color: white;
+        font-weight: 900;
+        font-size: 9em;
+        bottom: 55%;
+        left: 46%;
+        opacity: 0.5;
+}
+.pg2 .four-squares-wrapper .square-present {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top:50%;
+        background-color: #1863db;
+        overflow: hidden;
+}
+
+.pg2 .four-squares-wrapper .square-present .present {
+        position: relative;
+        left: 10%;
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+}
+
+
+.pg2 .four-squares-wrapper .square-present .zero-two {
+        position: relative;
+        color: white;
+        font-weight: 900;
+        font-size: 9em;
+        bottom: 55%;
+        left: 46%;
+        opacity: 0.5;
+        overflow: hidden;
+}
+
+.right-side {
+        position: absolute;
+        width: 42%;
+        height: 50%;
+        left: 57.5%;
+        top: 127%;
+        font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.right-side .txt {
+        position: relative;
+}
+
+.right-side .txt .past {
+        position: relative;
+        right: 2%;
+        color: #010514;
+        font-weight: bold;
+        font-size: 7em;
+        letter-spacing: 2px;
+
+}
+
+.right-side .txt .branding-prj {
+        position: absolute;
+        left: 5%;
+        top: 80%;
+        color: black;
+        font-weight: 900;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        opacity: 0.2;
+
+}
+
+.right-side .txt .desc {
+        position: absolute;
+        top: 130%;
+        right: 40.5%;
+        width: 60%;
+        opacity: 0.5;
+        font-size: 0.9em;
+}
+
+.right-side .btn-more {
+        position: absolute;
+        top: 80%;
+        height: 15%;
+        right: 75.9%;
+        background-color: #010514;
+        padding-right: 19px;
+        padding-left: 19px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        width: 25%;
+
+}
+
+.right-side .btn-more::after {
+        content: ' ';
+        display: inline-block;
+        width: 50%;
+        height: 10%;
+        background-color:#010514;
+        position: absolute;
+        left: 368%;
+        bottom: 50%;
+
+}
+
+.horizontal-line3{
+        position: absolute;
+        width: 99.3%;
+        right: 0.5%;
+        border-top: 1px solid gray;
+        opacity: 0.2;
+        top: 127%;
+
+}
+
+
+
+.pg3 .clipped-bg {
+        overflow: hidden;
+        position: absolute;
+        top: 215%;
+        left: 15%;
+        width: 35.4%;
+        height: 60%;
+        background-color: #f2a961;
+}
+
+.pg3 .clipped-bg div {
+        height: inherit;
+}
+
+.pg3 .clipped-bg .part1 {
+        background-color: #f2a961;
+        clip-path: polygon(0 0, 45% 0%, 45% 0%, 45% 14%, 41% 23%, 37% 34%, 23% 45%, 0 30%);
+
+}
+
+.pg3 .clipped-bg .part2 {
+        position: relative;
+        bottom: 60%;
+        right: 23%;
+        background-color: #1863db;
+        clip-path: polygon(70% 12%, 70% 0, 59% 5%, 48% 14%, 40% 24%, 31% 34%, 23% 45%, 70% 44%);
+}
+
+.pg3 .clipped-bg .part3 {
+        position: relative;
+        bottom: 120%;
+        background-color: #2481f2;
+        clip-path: polygon(100% 0, 47% 0, 47% 95%,100% 18%);
+}
+
+.pg3 .clipped-bg .part4 {
+        position: relative;
+        bottom: 175%;
+        background-color: #de0492;
+        clip-path: polygon(100% 0, 43% 98%, 100% 79%);
+
+
+
+}
+
+.pg3 .clipped-bg .part5 {
+        position: relative;
+        bottom: 215.5%;
+        background-color: #13b9d6;
+        clip-path: polygon(73% 90%, 73% 46%, 100% 46%, 100% 70%, 97% 76%, 94% 83%, 85% 98%, 80% 97%);
+
+
+}
+
+.pg3 .clipped-bg .part6 {
+        position: relative;
+        background-color: #bdb706;
+        bottom: 256%;
+        left:23%;
+        z-index: 665;
+        clip-path: polygon(77% 37.5%, 97% 63%, 100% 100%, 60% 68%, 69% 53%);
+
+}
+
+.pg3 .clipped-bg .part7 {
+        position: relative;
+        bottom: 350%;
+        right:110%;
+        background: #2481f2;
+        height: 90%;
+        width: 210%;
+        clip-path: polygon(73% 60%, 100% 91%, 100% 100%, 73% 100%);
+
+}
+.pg3 .clipped-bg .part8 {
+        position: relative;
+        bottom: 410%;
+        background-color: #de0492;
+        clip-path: polygon(0 91%, 46% 50%, 46% 100%, 0% 100%);
+
+}
+
+.pg3 .statistics {
+        position: absolute;
+        top: 224%;
+        left: 15%;
+        width: 30%;
+        height:43%;
+        background-color: white;
+        z-index: 100000;
+        border: solid 1.5px #f0f2f2
+}
+
+.pg3 .statistics h3 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        padding-left: 23px;
+        padding-top: 23px;
+        letter-spacing: 1.4px;
+        font-size:1.3em;
+
+
+}
+
+.pg3 .statistics p {
+
+        position: relative;
+        left: 5.5%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        opacity: 0.4;
+        letter-spacing: 0.2px;
+        font-size: .8em;
+        width: 230px;
+        line-height: 19px;
+
+}
+
+.pg3 .statistics .income-expence {
+        position: relative;
+        left: 5%;
+        width: 175px;
+        height: 75px;
+
+}
+
+.pg3 .statistics .income {
+        position: relative;
+        font-weight: bold;
+        font-size: 1.3em;
+}
+
+.pg3 .statistics .income div {
+        font-weight: normal;
+        font-size: 0.6em;
+        opacity: 0.8;
+
+}
+
+.pg3 .statistics .income div::after {
+        position: absolute;
+        top: 45px;
+        left: 85px;
+        content: " ";
+        border-top: solid 4px  #de0492;
+        height: 3px;
+        width: 23px;
+
+}
+
+.pg3 .statistics .expence {
+        position: relative;
+        left: 48%;
+        bottom: 52%;
+        font-size: 1.3em;
+        font-weight: bold;
+
+}
+
+.pg3 .statistics .expence div {
+
+        position: absolute;
+        top:50%;
+        right: 75%;
+        font-weight: normal;
+        font-size: 0.6em;
+        opacity: 0.8;
+        padding-left: 20px;
+        padding-top: 12px;
+        border-left: solid 0.51px gray;
+        height: 25px;
+
+}
+
+.pg3 .statistics .expence div::after {
+        position: absolute;
+        content: ' ';
+        border-top: solid 4px #13b9d6;
+        height:3px;
+        width: 23px;
+        right: 104px;
+        top: 32px;
+
+}
+
+.pg3 .right-side-2 {
+        position: absolute;
+        top: 215%;
+        right: 5.2%;
+        width: 42%;
+        height: 72%;
+
+
+}
+
+
+.pg3 .right-side-2 h1 {
+        position: relative;
+        bottom: 17%;
+        left: 10%;
+        color: #010514;
+        font-size: 7.7em;
+        font-weight: bold;
+}
+
+.pg3 .right-side-2 p {
+        position: relative;
+        bottom: 37%;
+        left: 10.5%;
+        font-size: .75em;
+        opacity: 0.6;
+        width: 43.5%;
+
+
+}
+
+.pg3 .right-side-2 button {
+        position: absolute;
+        top: 57%;
+        width: 28.5%;
+        height: 11.5%;
+        left: 10%;
+        background-color:#010514;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding-left: 5%;
+        padding-right: 5%;
+
+}
+
+.pg3 .line1 {
+        border-top: solid 6.5px #010514;
+        position: absolute;
+        left:10.45%;
+        top: 233.5%;
+        height: 1%;
+        width: 4.5%;
+
+}
+.pg3 .line2 {
+        position: absolute;
+        border-top: solid 6.5px #010514;
+        left: 50%;
+        top: 258.5%;
+        height: 1%;
+        width: 3%;
+
+
+}
+
+.pg3 .line3 {
+        position: absolute;
+        left: 89.9%;
+        top: 297%;
+        border-top: solid 6.5px #010514;
+        height: 1%;
+        width: 10%;
+
+}
+.horizontal-line4 {
+        position: absolute;
+        border-top: 1px solid gray;
+        width: 99%;
+        opacity: 0.2;
+        top: 214.8%;
+        right: 0.5%;
+}
+.horizontal-line5 {
+        position: absolute;
+        border-top: 1px solid gray;
+        width: 99%;
+        opacity: 0.2;
+        top: 223.6%;
+        right: 0.5%;
+}
+.horizontal-line6 {
+        position: absolute;
+        border-top: 1px solid gray;
+        width: 99%;
+        opacity: 0.2;
+        top: 267.5%;
+        right: 0.5%;
+}
+.horizontal-line7 {
+        position: absolute;
+        border-top: 1px solid gray;
+        width: 99%;
+        opacity: 0.2;
+        top: 275%;
+        right: 0.5%;
+}
+
+.pg4 .clip_bg {
+        overflow: hidden;
+        position: absolute;
+        top: 315%;
+        left: 15%;
+        width: 35.4%;
+        height: 50%;
+        background-color: #010514;
+
+}
+
+.pg4 .pg4-ln1 {
+
+        width: 80%;
+        height: 50%;
+        border-top: solid 22px red;
+        position: absolute;
+        top: 410%;
+}
+
+.pg4 .clip_bg .clp1 {
+
+        position: absolute;
+        clip-path: polygon(90% 0, 100% 0, 100% 100%, 12% 100%);
+        background: #f2a961;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+}
+
+.pg4 .clip_bg .clp2 {
+        position: absolute;
+        clip-path: polygon(10% 27%, 27% 40%, 35% 49%, 40% 56%, 42.8% 60.5%, 12% 100%, 0 100%, 0 25%);
+        background-color: #13b9d6;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+}
+
+.pg4 .clip_bg .clp3 {
+        position: absolute;
+        background-color: #de0492;
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(38% 0, 90% 0, 59.5% 39.8%, 48% 25%, 43% 14%);
+
+
+
+}
+.pg4 .clip_bg .clp4 {
+        position: absolute;
+        top: 26.8%;
+        right: 61.3%;
+        background-color: #f2a961;
+        width: 50%;
+        height: 50%;
+        z-index: 10;
+        clip-path: circle(36.5% at 100% 49%);
+        transform: rotate(46.5deg);
+
+}
+
+
+.pg4 .clip_bg .clp5 {
+        position: absolute;
+        top: 77%;
+        left: 22.5%;
+        background-color: #bdb706;
+        width: 50%;
+        height: 50%;
+        z-index: 10;
+        clip-path: circle(36.5% at 100% 49%);
+        transform: rotate(226.5deg);
+
+}
+
+.pg4 .clip_bg .clp6 {
+        position: absolute;
+        background-color: #fcace1;
+        width: 100%;
+        height: 100%;
+        z-index: 20;
+        clip-path: polygon(89.8% 0, 100% 0, 100% 100%, 70% 100%, 42.8% 60.5%);
+
+}
+
+.pg4 .clip_bg .clp7 {
+        position: absolute;
+        background: #13b9d6;
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(89.8% 0, 100% 0, 100% 35%, 88% 28.5%, 80% 19.5%,78% 15%);
+        z-index: 20;
+
+
+}
+
+.pg4 .clip_bg .text {
+        position: absolute;
+        width: 60%;
+        height: 80%;
+        z-index: 1000;
+        color: white;
+}
+.pg4 .clip_bg .text h1 {
+        position: absolute;
+        top: 15%;
+        left: 14%;
+        font-weight: bold;
+        font-size: 1.4em;
+        letter-spacing: .8px;
+
+}
+
+.pg4 .clip_bg .text p {
+        position: absolute;
+        top: 35%;
+        left: 14%;
+        letter-spacing: .3px;
+        font-size: .80em;
+        width: 78%;
+
+
+}
+
+.pg4 .clip_bg .text .play-btn {
+        position: absolute;
+        top: 70%;
+        left:14%;
+        width: 17%;
+        height: 17%;
+        background: white;
+        border-radius: 100%;
+
+
+}
+
+.pg4 .clip_bg .text .play-btn .triangle {
+        position: absolute;
+        top:35%;
+        left: 40%;
+        width: 0;
+        height: 0;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+
+        border-left: 11px solid black;
+
+
+}
+
+.pg4 .img1 {
+        position: absolute;
+        top: 346.5%;
+        left: 31%;
+        z-index: 43;
+        background: yellow;
+        width: 21%;
+        height: 30%;
+        background: url(bgg.jpeg);
+        background-size: contain;
+}
+.pg4 .img1-text {
+	position: absolute;
+	top: 377%;;
+	left: 30.5%;
+	width: 21%;
+
+}
+.pg4 .img1-text h1 {
+	padding-left: 1.5%;
+	padding-top:3%;
+	font-size: 1.2em;
+}
+
+.pg4 .img1-text p {
+	font-size: .9em;
+	opacity: 0.7;
+	padding-left: 1.5%;
+	line-height: 20px;
+}
+
+.pg4 .right-side {
+	position: absolute;
+	top: 315%;
+	left: 57%;
+	width: 40%;
+	height: 80%;
+}	
+
+.pg4 .right-side > h1 {
+	position: absolute;
+        bottom: 50%;
+        right: 56.2%;
+	font-size: 7em;
+	letter-spacing: .05em;
+	
+
+}
+
+
+.pg4 .right-side .img2 {
+	position: absolute;
+	top: 39%;
+	width: 70%;
+	height: 38%;
+	z-index: 200;
+	background: url(flwer1.jpeg);
+	background-size: contain;
+
+
+}
+.pg4 .right-side .text {
+	position: absolute;
+	top: 77%;
+	height: 50%;
+	width: 50%;
+
+}
+
+.pg4 .right-side .text h1 {
+		
+	padding-top:6px;
+	font-size: 1.2em;
+	
+}
+.pg4 .right-side .text p {
+	font-size: .9em;
+        opacity: 0.7; 
+        line-height: 20px;
+}
+
+.pg5 {
+        position:absolute;
+        top: 420%;
+        height: 50%;
+        width: 83%;
+}
+
+.pg5 .wrapper-left {
+        position: relative;
+        top: 8%;
+        height: 200px;
+        width: 50%;
+        
+}
+.pg5 .wrapper-left .left-side {
+        position: relative;
+        left: 34.6%;
+        bottom: 5%;
+        width: 75%;
+        height: 80%;
+}
+.pg5 .wrapper-left .hr-line-1 {
+        position: relative;
+        bottom: 11%;
+        left: 96%;
+        border-bottom: 6px solid #010514;
+        width: 24%;
+}
+.pg5 .wrapper-left .hr-line-2 {
+        position: relative;
+        border-bottom: 6px solid #010514;
+        width: 10%;
+        left: 120%;
+        top: 12%;
+}
+
+.pg5 .wrapper-left .left-side h1 {
+        font-size: 1.2em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+}
+.pg5 .wrapper-left .left-side .p1 {
+        font-size: 0.8em;
+        color: gray;
+        position: relative;
+        bottom: 5%;
+}
+
+.pg5 .wrapper-left .left-side .p2 {
+        position: relative;
+        bottom: 28%;
+        font-size: 3.3em;
+        color: #13b9d6;
+        font-weight: bold;
+        font-family: 'Roboto Condensed', sans-serif;
+}
+.pg5 .wrapper-left .left-side .p3 {
+        font-size: 0.8em;
+        color: gray;
+        position: relative;
+        bottom: 60%;
+}
+
+.pg5 .right-side5 {
+        position: relative;
+        left: 68.14%;
+        width: 25%;
+        bottom: 55%;
+}
+.pg5 .right-side5  h1 {
+        font-size: 1.8em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+}
+.pg5 .right-side5 .p1 {
+        font-size: 0.8em;
+        color: gray;
+        position: relative;
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.pg5 .right-side5 .learn-more {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.9em;
+}
+
+.pg5 .right-side5 .arrow-right {
+        position: absolute;
+        bottom: 4%;
+        left: 33%;
+        transform: rotate(-45deg);
+        border: solid black;
+        border-width: 0 2px 2px 0;
+        padding: 2.4px;
+}
+
+.pg6 {
+        width: 99.3%;
+        height: 80%;
+
+        position: absolute;
+        top: 480%;
+        z-index: 1;
+        background-color: #f0f0f0;
+}
+
+.pg6 .rectangle {
+        position: absolute;
+        left: 14.5%;
+        width: 70.5%;
+        background-color: #13b9d6;
+        height: 83%;
+        z-index: 2;
+}
+
+.pg6 .rectangle .img-laptop {
+        position: absolute;
+        
+        background: url(laptop2.jpeg);
+        background-size: cover;
+        left: 5%;
+        width: 45.5%;
+        height: 35%;
+        bottom: 30%;
+        z-index: 1;
+        opacity: 1;
+        
+}
+.pg6 .rectangle .img-laptop::before{ 
+        content: 'Our Programs';
+        position: relative;
+        bottom: 68px;
+        font-weight: bold;
+        font-size: 2em;
+        color: #010514;
+        font-family: 'Roboto Condensed', sans-serif;
+}
+
+.pg6 .rectangle .text {
+        position: absolute;
+        width: 30%;
+        left: 60.2%;
+        line-height: 1.4;
+        color: #010514;
+        font-family: 'Roboto Condensed', sans-serif;
+        top: 35%;
+        font-size: 0.9em;
+}
+
+.pg6 .rectangle button {
+        position: absolute;
+        left: 60.2%;
+        top: 57%;
+        width: 17%;
+        height: 14%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        color: #010514;
+}
+.footer {
+        position: absolute;
+        top: 560%;
+        width: 98.5%;
+        height: 30%;
+        z-index: 1;
+}
+
+.footer .left-txt {
+        position: absolute;
+        width: 17%;
+        top: 50%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.9em;
+        left: 9%;
+        color: gray;
+}
+        
+.footer .logo2 {
+        position: absolute;
+        left: 9%;
+        top: 20%;
+        font-weight: bold;
+        font-size: 25px;
+        padding:0;
+        margin: 0;
+        width: 10%;
+}
+.footer .logo2 .part1 {
+        color: #010514;
+}
+.footer .logo2 .part2 {
+        color: #fa1483;
+}
+
+
+.footer .lists {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 0.9em;
+        color: gray;
+}
+.footer .lists .list1{
+        list-style-type: none;
+        width: 11%;
+        position: absolute;
+        top: 40%;
+        line-height: 1.5;
+        left: 35%;
+}
+.footer .lists .list1 .elem1 {
+        color:#010514;
+        font-weight: bold;
+        position: absolute;
+        bottom: 130%;
+}
+.footer .lists .list2 {
+        list-style-type: none;
+        width: 11%;
+        position: absolute;
+        left: 55%;
+        top: 40%;
+        line-height: 1.5;
+}
+.footer .lists .list2 .elem1 {
+        color: #010514;
+        font-weight: bold;
+        position: absolute;
+        bottom: 130%;
+}
+.footer .lists .list3 {
+        list-style-type: none;
+        width: 11%;
+        position: absolute;
+        left: 75%;
+        top: 40%;
+        line-height: 1.5;
+}
+.footer .lists .list3 .elem1 {
+        color: #010514;
+        font-weight: bold;
+        position: absolute;
+        bottom: 130%;
+}
+
+.vertical-ln1 {
+        position: absolute;
+        top: 0;
+        left:15%;
+        border-left: 1px solid gray;
+        opacity:0.2;
+        height: 560%;
+        z-index: 1000;
+}
+
+.vertical-ln2 {
+        position: absolute;
+        top:0;
+        left:50.4%;
+        border-left: 1px solid gray;
+        opacity: 0.2;
+        height: 560%;
+        z-index: 10;
+}
+.vertical-ln3 {
+        position: absolute;
+        top:0;
+        left:57.1%;
+        border-left: 1px solid gray;
+        opacity: 0.2;
+        height: 560%;
+        z-index: 10;
+}
+
+.vertical-ln4 {
+        position: absolute;
+        top:0;
+        left:85%;
+        border-left: 1px solid gray;
+        opacity: 0.2;
+        height: 560%;
+        z-index: 10;
+}
+
+.horizontal-ln1 {
+        position:absolute;
+        border-top: 6px solid #010514;
+        width: 9.5%;
+        bottom: 165%;
+        left: 5%;
+}
+
+.horizontal-ln2 {
+        position: absolute;
+        border-top: 6px solid  #010514;
+        width: 4%;
+        bottom: 325%;
+        left: 85.7%;
+}
+
